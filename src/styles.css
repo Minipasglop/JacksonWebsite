@@ -1,1 +1,119 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #2b2b2b !important;
+  color: white !important;
+}
+
+.btn-dark{
+  cursor: pointer;
+  margin-right:5px;
+}
+
+span,.fa{
+  margin-right:10px;
+}
+
+.carousel-slide{
+  margin-top:4rem !important;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}
+
+.container-fluid {
+  margin-bottom: 100px;
+  margin-top : 4.2rem !important;
+}
+
+.single-souligne {
+  color: #ffffff;
+  border-bottom : 4px solid #928DAB;
+  margin-top: .5em;
+  margin-bottom: 1.73em;
+  display: inline-block;
+}
+
+.double-souligne {
+  color: #ffffff;
+  border-bottom : 7px double #928DAB;
+  margin-top: .5em;
+  margin-bottom: 1.73em;
+  display: inline-block;
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
+  background-color: #2b2b2b;
+}
+.custom-feature-name {
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+}
+.custom-feature-name, .custom-feature-name p {
+  flex-direction: column;
+  display: flex;
+}
+
+.commands-title, .custom-feature-name p {
+  font-weight: 300;
+}
+
+.custom-feature-name h3 {
+  display: flex;
+  font-size: 1.5em;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.custom-icon {
+  padding: 0;
+}
+
+.custom-icon .fa {
+  font-size: 4em;
+  line-height: 16rem;
+  height: 16rem;
+  width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background: #432434;
+  color: #fff;
+  transition: all .1s ease;
+}
+.custom-icon .fa-bg-1 {
+  background: #928DAB;
+  background: -webkit-linear-gradient(to right,#1F1C2C,#928DAB);
+  background: linear-gradient(to right,#1F1C2C,#928DAB);
+}
+.custom-icon .fa-bg-2 {
+  background: #292E49;
+  background: -webkit-linear-gradient(135deg,#536976,#292E49);
+  background: linear-gradient(135deg,#536976,#292E49);
+}
+
+.iframe-right {
+  position: absolute;
+  bottom: -1rem;
+  right: -10rem;
+}
+
+.custom-center {
+  text-align : center;
+}

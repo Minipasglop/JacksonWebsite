@@ -1,0 +1,26 @@
+<div class="row" *ngIf="isPositionRight()">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-feature-name">
+    <h3 class="text-right">
+      {{title}}
+    </h3>
+    <p>
+      {{content}}
+    </p>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-icon">
+    <i class="fa-bg-1 {{icon}}"></i>
+  </div>
+</div>
+<div class="row" *ngIf="!isPositionRight()">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-icon">
+    <i class="fa-bg-2 {{icon}}"></i>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-feature-name">
+    <h3 class="text-right">
+      {{title}}
+    </h3>
+    <p>
+      {{content}}
+    </p>
+  </div>
+</div>
