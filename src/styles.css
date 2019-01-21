@@ -41,6 +41,12 @@ span,.fa{
   display: inline-block;
 }
 
+.single-souligne-title {
+  border-bottom : 4px solid #536976;
+  display: inline-block;
+  margin-bottom: auto;
+}
+
 .double-souligne {
   color: #ffffff;
   border-bottom : 7px double #928DAB;
@@ -111,7 +117,7 @@ span,.fa{
 .iframe-right {
   position: absolute;
   bottom: -1rem;
-  right: -10rem;
+  right: -21%;
 }
 
 .custom-center {

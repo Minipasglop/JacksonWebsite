@@ -9,6 +9,7 @@ import { NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import { ButtonListComponent } from './button-list/button-list.component';
 import { CodeCarouselItemComponent } from './code-carousel-item/code-carousel-item.component';
 import { CardInformationComponent } from './card-information/card-information.component';
+import {AppRoutingModule} from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { CardInformationComponent } from './card-information/card-information.co
     BrowserModule,
     NgbModule
   ],
-  providers: [],
+  providers: [AppRoutingModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
