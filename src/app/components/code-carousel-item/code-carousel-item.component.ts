@@ -12,7 +12,6 @@ export class CodeCarouselItemComponent implements OnInit {
   @Input() link:String;
   @Input() alt:String;
   constructor() {
-    console.log("penis")
   }
 
   ngOnInit() {
