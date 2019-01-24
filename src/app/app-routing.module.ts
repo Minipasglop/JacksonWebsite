@@ -7,7 +7,8 @@ import {FAQComponent} from "./faq/faq.component";
 const routes: Routes = [
   {path: 'features', component: FeaturesComponent},
   {path: 'faq', component: FAQComponent},
-  {path: '', component: BodyComponent}
+  {path: 'home', component: BodyComponent},
+  {path: '', redirectTo:'home', pathMatch: 'full'}
 ];
 
 @NgModule({
