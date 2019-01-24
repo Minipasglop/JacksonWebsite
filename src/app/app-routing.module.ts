@@ -1,12 +1,13 @@
 import {RouterModule, Routes} from "@angular/router";
 import {NgModule} from "@angular/core";
 import {BodyComponent} from "./body/body.component";
+import {FeaturesComponent} from "./features/features.component";
+import {FAQComponent} from "./faq/faq.component";
 
 const routes: Routes = [
-  {
-    path: '**',
-    component: BodyComponent
-  }
+  {path: 'features', component: FeaturesComponent},
+  {path: 'faq', component: FAQComponent},
+  {path: '', component: BodyComponent}
 ];
 
 @NgModule({

@@ -10,6 +10,8 @@ import { ButtonListComponent } from './button-list/button-list.component';
 import { CodeCarouselItemComponent } from './code-carousel-item/code-carousel-item.component';
 import { CardInformationComponent } from './card-information/card-information.component';
 import {AppRoutingModule} from "./app-routing.module";
+import { FeaturesComponent } from './features/features.component';
+import { FAQComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,16 @@ import {AppRoutingModule} from "./app-routing.module";
     NgbdCarouselConfig,
     ButtonListComponent,
     CodeCarouselItemComponent,
-    CardInformationComponent
+    CardInformationComponent,
+    FeaturesComponent,
+    FAQComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    AppRoutingModule
   ],
-  providers: [AppRoutingModule],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

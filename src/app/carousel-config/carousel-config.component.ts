@@ -17,7 +17,7 @@ export class NgbdCarouselConfig {
     title:"Jackson",
     alt:"Some Code",
     link:"../../assets/img/commandEnumLittle.png",
-    content:"Music, Discord server Management, and much more !"
+    content:"Music, Server management, and much more !"
   }
   ];
 
