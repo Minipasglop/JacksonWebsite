@@ -1,6 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~font-awesome/css/font-awesome.css";
-
 html {
   scroll-behavior: smooth;
 }
@@ -91,18 +89,18 @@ span,.fa{
   padding: 0;
 }
 
-.custom-icon .fa {
-  font-size: 4em;
-  line-height: 16rem;
-  height: 16rem;
-  width: 100%;
-  display: block;
-  margin: auto;
-  text-align: center;
-  background: #432434;
-  color: #fff;
-  transition: all .1s ease;
-}
+.custom-icon .fa, .custom-icon .fas {
+   font-size: 4em;
+   line-height: 16rem;
+   height: 16rem;
+   width: 100%;
+   display: block;
+   margin: auto;
+   text-align: center;
+   background: #432434;
+   color: #fff;
+   transition: all .1s ease;
+ }
 .custom-icon .fa-bg-1 {
   background: #928DAB;
   background: -webkit-linear-gradient(to right,#1F1C2C,#928DAB);
