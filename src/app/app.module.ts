@@ -13,6 +13,8 @@ import { AppRoutingModule } from "./app-routing.module";
 import { FeaturesComponent } from './components/features/features.component';
 import { FAQComponent } from './components/faq/faq.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { CommandListComponent } from './components/command-list/command-list.component';
+import { CommandItemComponent } from './components/command-item/command-item.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     CodeCarouselItemComponent,
     CardInformationComponent,
     FeaturesComponent,
-    FAQComponent
+    FAQComponent,
+    CommandListComponent,
+    CommandItemComponent
   ],
   imports: [
     BrowserModule,

@@ -1,13 +1,12 @@
 <div class="container-fluid ">
   <div class="flex-content">
     <div class="row justify-content-center">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="col-12">
         <div class="text-center">
           <h2 class="single-souligne">Jackson's Features</h2>
-
-          <div *ngFor="let cardItem of cardItems" class="col-lg-8 col-md-10 col-sm-12 col-xs-12 custom-center">
-            <app-card-information [title]="cardItem.title" [content]="cardItem.content" [icon]="cardItem.icon" [iconPosition] = "cardItem.iconPosition" ></app-card-information>
-          </div>
+          <app-command-list listIcon="fa fa-play" commandCategory="Sound Commands" [commandList]="soundCommands"></app-command-list>
+          <app-command-list listIcon="fa fa-wrench" commandCategory="Server Commands" [commandList]="serverCommands"></app-command-list>
+          <app-command-list listIcon="fab fa-discord" commandCategory="Misc Commands" [commandList]="miscCommands"></app-command-list>
         </div>
       </div>
     </div>

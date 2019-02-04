@@ -121,3 +121,36 @@ span,.fa{
 .custom-center {
   text-align : center;
 }
+
+.max-width {
+  width: 100%;
+}
+
+.purple-border{
+  border-color: #928DAB !important;
+}
+
+.no-margin {
+  margin: 0 0 0 0 !important;
+}
+
+.collapse.show {
+  display: flex !important;
+}
+
+.command-block {
+  min-height: 225px !important;
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2rem !important;
+}
+
+.padding-top-sm {
+  padding-top: 1rem !important;
+}
+
+.no-border {
+  border-top: none !important;
+}

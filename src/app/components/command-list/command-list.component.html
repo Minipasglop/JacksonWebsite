@@ -1,0 +1,11 @@
+<div class="row justify-content-center margin-bottom-sm">
+  <div class="col-10">
+    <button class="btn btn-dark max-width text-left" data-toggle="collapse" [attr.data-target]="'#' + getListId()">
+      <span class="{{listIcon}}"></span>
+      <span>{{commandCategory}}</span>
+    </button>
+      <div id="{{getListId()}}" class="row max-width no-margin collapse show bg-dark max-width padding-top-sm">
+        <app-command-item *ngFor="let commandItem of commandList" class="col-lg-4 col-md-6 col-sm-12" [command]="commandItem"></app-command-item>
+      </div>
+  </div>
+</div>
