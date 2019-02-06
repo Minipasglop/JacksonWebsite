@@ -15,6 +15,7 @@ import { FAQComponent } from './components/faq/faq.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { CommandListComponent } from './components/command-list/command-list.component';
 import { CommandItemComponent } from './components/command-item/command-item.component';
+import {LocationStrategy, PathLocationStrategy} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -37,7 +38,7 @@ import { CommandItemComponent } from './components/command-item/command-item.com
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: PathLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
