@@ -9,9 +9,9 @@ import {CommandsConstant} from "../../constants/commands.constant";
 })
 export class FeaturesComponent implements OnInit {
 
-  private soundCommands: BotCommand[];
-  private serverCommands: BotCommand[];
-  private miscCommands: BotCommand[];
+  public soundCommands: BotCommand[];
+  public serverCommands: BotCommand[];
+  public miscCommands: BotCommand[];
 
   constructor() { }
 
