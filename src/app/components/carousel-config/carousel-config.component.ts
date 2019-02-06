@@ -9,12 +9,12 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class NgbdCarouselConfig {
 
   images = [{
-    title:"Jackson",
+    title:"JacksonBot",
     alt:"Some Code",
     link:"../../assets/img/commandEnumLittle.png",
     content:"The music bot you've dreamed of for so long..."
   },{
-    title:"Jackson",
+    title:"JacksonBot",
     alt:"Some Code",
     link:"../../assets/img/commandEnumLittle.png",
     content:"Music, Server management, and much more !"
