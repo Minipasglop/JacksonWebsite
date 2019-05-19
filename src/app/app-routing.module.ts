@@ -1,8 +1,8 @@
-import { RouterModule, Routes} from "@angular/router";
+import {RouterModule, Routes} from "@angular/router";
 import {NgModule} from "@angular/core";
-import {BodyComponent} from "./components/body/body.component";
-import {FeaturesComponent} from "./components/features/features.component";
-import {FAQComponent} from "./components/faq/faq.component";
+import {BodyComponent} from "./homePage/component/body/body.component";
+import {FeaturesComponent} from "./featurePage/component/features/features.component";
+import {FAQComponent} from "./faqPage/component/faq/faq.component";
 
 const routes: Routes = [
   {path: 'features', component: FeaturesComponent, data:{animation: 'featuresPage'}},
