@@ -1,5 +1,5 @@
 # JacksonBotWebsite
-https://app.buddy.works/dertest58/jacksonwebsite/pipelines/pipeline/190152/badge.svg?token=7c1ccb5b90f1ee10a09221a419cff6248712e460889d887465295499da5af02d
+[![buddy pipeline](https://app.buddy.works/dertest58/jacksonwebsite/pipelines/pipeline/190152/badge.svg?token=7c1ccb5b90f1ee10a09221a419cff6248712e460889d887465295499da5af02d "buddy pipeline")](https://app.buddy.works/dertest58/jacksonwebsite/pipelines/pipeline/190152)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
