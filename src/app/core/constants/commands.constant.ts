@@ -25,11 +25,12 @@ export class CommandsConstant {
   private static catCommand = new BotCommand("Cat", "Show some kittys", "!cat");
   private static dogCommand = new BotCommand("Dog", "Show some puppies", "!dog");
   private static chuckNorrisCommand = new BotCommand("Chuck Norris fact", "Get some chuck norris fact", "!chucknorris");
+  private static websiteCommand = new BotCommand("Website", "Check JacksonBot's website !", "!website");
 
   public static readonly SOUND_COMMANDS=[CommandsConstant.playCommand, CommandsConstant.loopCommand,CommandsConstant.shuffleCommand,CommandsConstant.queueCommand,CommandsConstant.playPauseCommand,CommandsConstant.volCommand,CommandsConstant.stopCommand,CommandsConstant.skipCommand];
 
   public static readonly SERVER_COMMANDS=[CommandsConstant.prefixCommand,CommandsConstant.helpCommand,CommandsConstant.greetingsChannelCommand,CommandsConstant.greetingsMessageCommand,CommandsConstant.moveCommand,CommandsConstant.setAutoRoleCommand];
 
-  public static readonly MISC_COMMANDS = [CommandsConstant.infoCommand, CommandsConstant.stateCommand, CommandsConstant.youTubeCommand, CommandsConstant.inviteCommand, CommandsConstant.pingCommand, CommandsConstant.catCommand, CommandsConstant.dogCommand, CommandsConstant.chuckNorrisCommand];
+  public static readonly MISC_COMMANDS = [CommandsConstant.infoCommand, CommandsConstant.stateCommand, CommandsConstant.youTubeCommand, CommandsConstant.inviteCommand, CommandsConstant.pingCommand, CommandsConstant.catCommand, CommandsConstant.dogCommand, CommandsConstant.chuckNorrisCommand, CommandsConstant.websiteCommand];
 
 }
